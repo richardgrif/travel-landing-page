@@ -10,7 +10,7 @@ const Navigation = [
     {name:'About Us', href:"#", current: false},
 ]
 function classNames(...classes: string[]){
-    return classes.filter(Boolean).join('')
+    return classes.filter(Boolean).join(' ')
 }
 export default function Navbar() {
     return (
